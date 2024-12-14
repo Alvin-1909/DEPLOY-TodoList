@@ -15,7 +15,26 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1a202c;
+  color: #fff;
+}
+input {
+  outline: none;
+  border: 1px solid #ccc;
+}
+button {
+  cursor: pointer;
+}
+
+.trash-icon {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 4px;
+  color: red;
+}
+
+.trash-icon:hover {
+  color: darkred;
 }
